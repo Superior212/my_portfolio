@@ -40,12 +40,7 @@ const Footer = () => {
               key={profile.id}
               className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-blur-lg bg-opacity-75 bg-black-200 rounded-lg border border-black-300">
               <a href={profile.link}>
-                <img
-                  src={profile.img}
-                  height={20}
-                  width={20}
-                  alt={profile.id}
-                />
+                <img src={profile.img} alt="icons" width={20} height={20} />
               </a>
             </div>
           ))}
