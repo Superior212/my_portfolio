@@ -31,7 +31,7 @@ const Hero = () => {
             Hi! I&apos;m Samson, a passionate Frontend Developer crafting
             seamless user experiences with modern web technologies.
           </p>
-          <a href="/about">
+          <a href="#projects">
             <MagicButton
               title="Explore my projects"
               icon={<Navigation className="w-4 h-4" />}

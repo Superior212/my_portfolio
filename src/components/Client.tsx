@@ -7,9 +7,9 @@ const Client = () => {
     <div className="py-20" id="testimonials">
       <h1 className="heading">
         Inspiring Feedback from{" "}
-        <span className="text-purple">Happy Clients</span>
+        <span className="text-[#64ffda]">Happy Clients</span>
       </h1>
-      <div className="flex flex-col items-center max-lg:mt-10">
+      <div className="flex flex-col items-center mt-10  max-lg:mt-10">
         <InfiniteMovingCards
           items={testimonials}
           direction="right"

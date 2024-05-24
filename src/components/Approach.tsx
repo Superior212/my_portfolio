@@ -9,22 +9,22 @@ const Approach = () => {
   return (
     <section className="w-full  py-20 ">
       <h1 className="heading">
-        My tailored <span className="text-purple">strategy</span>
+        My tailored <span className="text-[#64ffda]">strategy</span>
       </h1>
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center gap-4 w-full gap-4 mx-auto px-8">
         <Card
-          title="Planning & Strategy"
+          title="Innovative Roadmapping & Growth Strategy"
           icon={<AceternityIcon order="Phase 1" />}
-          description="We'll collaborate to map out your website's goals, target audience, and key functionalities. We'll discuss things like site structure, navigation, and content requirements.">
+          description="Let's collaborate to create a project that captures the essence of your brand and connects with your audience. We will clarify your project's purpose, determine your target audience, and design a user-friendly site structure and content strategy that inspires and informs. Together, we will produce something extraordinary!">
           <CanvasRevealEffect
             animationSpeed={5.1}
             containerClassName="bg-emerald-900"
           />
         </Card>
         <Card
-          title="Development & Progress Update"
+          title="Development Milestones & Progress"
           icon={<AceternityIcon order="Phase 2" />}
-          description="Once we agree on the plan, I cue my lofi playlist and dive into coding. From initial sketches to polished code, I keep you updated every step of the way.">
+          description="Once we've aligned on a plan, I press play on my lofi playlist and dive into the coding zone! With a focus on bringing your vision to life, I'll guide you through every stage of the development process - from initial concept sketches to refined, production-ready code. You'll receive regular updates, so you can witness your project transform from an idea into a stunning, functional reality.">
           <CanvasRevealEffect
             animationSpeed={3}
             containerClassName="bg-black"
@@ -38,9 +38,9 @@ const Approach = () => {
           {/* <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" /> */}
         </Card>
         <Card
-          title="Development & Launch"
+          title="Development & Deployment"
           icon={<AceternityIcon order="Phase 3" />}
-          description="This is where the magic happens! Based on the approved design, I'll translate everything into functional code, building your website from the ground up.">
+          description="Welcome to the coding studio, where creativity meets technical wizardry! With the approved design as our blueprint, I'll breathe life into your vision, crafting a custom website from scratch. Every line of code is carefully written to bring your brand's story to life, combining form and function in perfect harmony. It'll transform your ideas into a dynamic, user-friendly, and visually stunning website that exceeds your expectations. Get ready to witness your digital dreams take shape!">
           <CanvasRevealEffect
             animationSpeed={3}
             containerClassName="bg-sky-600"
@@ -89,7 +89,7 @@ const Card = ({
         <div className="text-center group-hover/canvas-card:-translate-y-4 group-hover/canvas-card:opacity-0 transition duration-200 w-full  mx-auto flex items-center justify-center absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
           {icon}
         </div>
-        <h2 className="dark:text-white text-3xl opacity-0 group-hover/canvas-card:opacity-100 relative z-10 text-black mt-4  font-bold group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200 text-center">
+        <h2 className="dark:text-white text-xl opacity-0 group-hover/canvas-card:opacity-100 relative z-10 text-black mt-4  font-bold group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200 text-center">
           {title}
         </h2>
         <h2

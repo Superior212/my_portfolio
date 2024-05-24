@@ -10,7 +10,7 @@ const RecentProjects = () => {
     <div className="py-20" id="projects">
       <h1 className="heading">
         A small selection of{" "}
-        <span className="text-purple">recent projects</span>
+        <span className="text-[#64ffda]">recent projects</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10">
         {projects.map((item) => (
@@ -21,7 +21,7 @@ const RecentProjects = () => {
               <div className="relative flex items-center justify-center sm:w-[570px]  w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] mb-10">
                 <div
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
-                  style={{ backgroundColor: "#13162D" }}>
+                  style={{ backgroundColor: " #112240" }}>
                   <img src="/bg.png" alt="bgimg" />
                 </div>
                 <img
@@ -59,10 +59,10 @@ const RecentProjects = () => {
                 </div>
 
                 <div className="flex justify-center items-center">
-                  <p className="flex lg:text-xl md:text-xs text-sm text-purple">
-                    Check Live Site
+                  <p className="flex lg:text-xl md:text-xs text-sm text-[#64ffda]">
+                    <a href={item.lifeLink}>Check Live Site</a>
                   </p>
-                  <Navigation className="ms-3 w-5 h-5" color="#CBACF9" />
+                  <Navigation className="ms-3 w-5 h-5" color="#64ffda" />
                 </div>
               </div>
             </PinContainer>

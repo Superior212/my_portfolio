@@ -7,7 +7,7 @@ const Experience = () => {
   return (
     <div className="py-20 w-full">
       <h1 className="heading">
-        Highlights from my <span className="text-purple">career path</span>
+        Highlights from my <span className="text-[#64ffda]">career path</span>
       </h1>
 
       <div className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10">
@@ -17,7 +17,7 @@ const Experience = () => {
             duration={Math.floor(Math.random() * 10000) + 10000}
             borderRadius="1.75rem"
             style={{
-              background: "rgb(4,7,29)",
+              background: " #112240",
               backgroundColor:
                 "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
 
@@ -31,9 +31,12 @@ const Experience = () => {
                 className="lg:w-32 md:w-20 w-16"
               />
               <div className="lg:ms-5">
-                <h1 className="text-start text-xl md:text-2xl font-bold">
+                <h1 className="text-start text-xl md:text-xl font-bold">
                   {card.title}
                 </h1>
+                <h2 className="text-start text-base text-white-100  md:text-base font-semibold">
+                  {card.comp}
+                </h2>
                 <p className="text-start text-white-100 mt-3 font-semibold">
                   {card.desc}
                 </p>
